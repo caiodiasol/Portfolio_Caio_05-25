@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Caio Dias",
+  title: "Oi, eu sou o Caio",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Full Stack Software Developer 🚀 Sou soteropolitano e apaixonado por tecnologia, inovação e pela arte de transformar ideias em soluções digitais eficientes. Atualmente, venho me especializando como Desenvolvedor Full Stack Python pela EBAC, onde estou aprimorando minha capacidade de criar aplicações práticas e intuitivas, com foco no usuário."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/caiodiasol",
+  linkedin: "https://www.linkedin.com/in/caio-dias-de-oliveira-536797b2/",
+  gmail: "caiodiasol@proton.me",
+  gitlab: "https://gitlab.com/caiodiasol",
+  facebook: "https://www.facebook.com/caio.dias.oliveira.2025",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +46,18 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "O que eu faço",
+  subTitle: "DESENVOLVEDOR FULL STACK APAIXONADO POR TECNOLOGIA",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Desenvolvo Interfaces de Front-end/Usuário altamente interativas para seus aplicativos web e móveis"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive Web Applications ( PWA )"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Execução de testes funcionais e exploratórios em APIs utilizadas em integrações entre plataformas"
+    ),
+    emoji(
+      "⚡ Apoio técnico na resolução de falhas e melhorias em processos digitais"
     )
   ],
 
@@ -89,33 +90,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +107,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "EBAC - Escola Britânica de Artes Criativas & Tecnologia",
+      logo: require("./assets/images/ebac.png"),
+      subHeader: "Desenvolvedor Full Stack Python",
+      duration: "Maio de 2024 - em curso",
+      desc: "A EBAC proporcionou habilidades sólidas tanto no back-end quanto no front-end, com foco em criar aplicações web completas, escaláveis e orientadas à experiência do usuário.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Back-end com Python: domínio de frameworks como React, Vue.js , com foco em APIs RESTful, integração com bancos de dados relacionais (PostgreSQL, MySQL) e no desenvolvimento de sistemas robustos e seguros.",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Infinity School | Escola da Indústria Criativa",
+      logo: require("./assets/images/infinityschool.png"),
+      subHeader: "Programação e Metaverso",
+      duration: "Julho de 2022 - Janeiro de 2023",
+      desc: "A Infinity School Certifica e recomenda o aluno Caio Dias de Oliveira  por ter concluído o curso de Metaverso",
+      descBullets: ["Apto a trabalhar com os softwares Unity, VR View e Visual Studio Code, com conhecimentos em linguagem C#, banco de dados, servidores e criação de cenários 3D. Tenho experiência na integração de ambientes interativos e desenvolvimento de aplicações imersivas, unindo lógica de programação, modelagem e tecnologia para oferecer experiências completas em realidade virtual e jogos."]
     }
   ]
 };
@@ -154,15 +134,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +154,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Desenvolvedor Jr.",
+      company: "Filterfeed",
+      companylogo: require("./assets/images/filterfeed.png"),
+      date: "Fevereiro de 2025 – Presente",
+      desc: "Atuação com testes em APIs, automações no CRM Ploomes, tratamento de dados com Python e suporte técnico em integrações, garantindo eficiência em processos, relatórios estratégicos e estabilidade em fluxos automatizados.",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Gerente",
+      company: "Bayáh Caraíva",
+      companylogo: require("./assets/images/bayah.jpg"),
+      date: "Julho de 2023 – Fevereiro de 2024",
+      desc: "Atuação com gestão de estoque e controle de pedidos, cadastro de produtos em sistema e atendimento direto ao público, garantindo organização operacional e uma experiência positiva para os clientes."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Sócio Diretor",
+      company: "Vitorina Brasil",
+      companylogo: require("./assets/images/vitorinabrasil.jpg"),
+      date: "Maio de 2020 – Maio de 2023",
+      desc: "Atuação no desenvolvimento web full stack, com foco em estruturação e manutenção de um marketplace próprio, integrando soluções de controle de produção e estoque. Responsável pela criação da identidade visual da marca (branding) e implementação de estratégias digitais que geraram aumento significativo nos resultados de vendas."
     }
   ]
 };
@@ -212,8 +188,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projetos",
+  subtitle: "ALGUMAS STARTUPS E EMPRESAS QUE AJUDEI A CRIAR SUA TECNOLOGIA",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -239,64 +215,51 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Conquistas e Certificações 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "CONQUISTAS, CERTIFICAÇÕES E RECONHECIMENTOS QUE MARCARAM MINHA JORNADA",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Programação e Metaverso",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Certificado internacional de conclusão do curso Programação Metaverso pela Infinity School, com foco em linguagem C#, Unity, realidade virtual e tecnologias aplicadas ao Metaverso. Formação voltada para o desenvolvimento de experiências imersivas e interativas, combinando programação, design e inovação digital.",
+      image: require("./assets/images/certificadometa.jpg"),
+      imageAlt: "Certificado Internacional",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Certificado",
+          url: "https://github.com/caiodiasol/servidor_estaticos/blob/main/Certificate%20Caio%20Metaverso.pdf"
         },
+      ]
+    },
+    {
+      title: "Carta de Recomendação - Infinity School",
+      subtitle:
+        "Carta oficial emitida pela Infinity School reconhecendo o desempenho, dedicação e habilidades desenvolvidas durante formação em Programação Metaverso, com ênfase em C#, Unity, realidade virtual e tecnologias imersivas.",
+      image: require("./assets/images/recomendacao.jpg"),
+      imageAlt: "Carta de Recomendação",
+      footerLink: [
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Ver Carta de Recomendação",
+          url: "https://github.com/caiodiasol/servidor_estaticos/blob/main/Carta%20de%20Apresenta%C3%A7%C3%A3o%20-%20Infinity%20School.pdf"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Automação de Propostas e Documentos",
+      subtitle: "Certificação concedida pela conclusão do curso de Automação de Propostas e Documentos, promovido pela Universidade Ploomes. O conteúdo abordou práticas e técnicas para otimizar a geração e gestão automatizada de documentos comerciais, com foco em eficiência, integração com CRM e padronização de processos empresariais.",
+      image: require("./assets/images/automacao.jpg"),
+      imageAlt: "Certificado Ploomes",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certificado", url: "https://github.com/caiodiasol/servidor_estaticos/blob/main/Caio%20Dias%20-%202025-02-17%20Automa%C3%A7%C3%A3o%20de%20Propostas%20e%20Documentos.pdf"},
       ]
     }
   ],
@@ -324,7 +287,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +306,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +319,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -369,21 +332,21 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Entre em Contato ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "SEJA PARA DISCUTIR UM PROJETO, BATER UM PAPO TECH OU SÓ DIZER UM OI — MINHA INBOX ESTÁ SEMPRE ABERTA.",
+  number: "+55-73-991053176",
+  email_address: "caiodiasol@proton.me"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "twiter", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
