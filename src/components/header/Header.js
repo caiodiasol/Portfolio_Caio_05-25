@@ -77,7 +77,7 @@ function Header() {
             </li>
           )}
           <li>
-            <a href="#contact">Contato</a>
+            <a href="#contact">Fale Comigo</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
