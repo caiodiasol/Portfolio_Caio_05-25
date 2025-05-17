@@ -181,7 +181,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -231,7 +231,7 @@ const achievementSection = {
       title: "Programação e Metaverso",
       subtitle:
         "Certificado internacional de conclusão do curso Programação Metaverso pela Infinity School, com foco em linguagem C#, Unity, realidade virtual e tecnologias aplicadas ao Metaverso. Formação voltada para o desenvolvimento de experiências imersivas e interativas, combinando programação, design e inovação digital.",
-      image: require("./assets/images/certificadometa.jpg"),
+      image: require("./assets/images/certificadometa.png"),
       imageAlt: "Certificado Internacional",
       footerLink: [
         {
